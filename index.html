@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Order-Summary-Page</title>
+  </head>
+  <body class="bg-lightGray">
+    <!-- Global Container -->
+    <div id="global" class="flex justify-center h-screen w-screen bg-lightGray">
+      <!-- Hero-Image Container-->
+      <div class="svg-img relative flex flex-col w-full"></div>
+
+      <!-- Main Container -->
+       <div class="absolute flex flex-col m-auto bg-white mx-6 mt-20 rounded-3xl md:max-w-md md:min-h-fit md:mt-24 md:mb-10">
+        <!-- Hero Image -->
+         <img src="images/illustration-hero.svg" alt="" class="rounded-t-3xl md:max-w-md">
+
+         <!-- Header -->
+        <h1 class="flex items-center justify-center text-2xl font-black text-blue mt-8 md:text-3xl md:mt-11">Order Summary</h1>
+
+        <p class="flex justify-center text-center text-md font-medium mx-6 text-grayishBlue mt-4 md:text-lg md:mt-5 md:mx-16">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+
+        <!-- Plan container -->
+        <div class="flex justify-around items-center mt-6 bg-veryLightGray w-5/6 mx-auto py-2 rounded-xl md:py-6 md:mt-5">
+          <img src="images/icon-music.svg" alt="">
+
+          <h2 class="flex flex-col text-sm font-black text-darkBlue tracking-tighter md:text-lg">Annual Plan<span class="font-medium text-grayishBlue tracking-wider">$59.99/year</span></h2>
+          <a href="#" class="border-b-2 border-darkPurple text-sm text-darkPurple font-bold hover:text-lightPurple hover:border-none">Change</a>
+        </div>
+
+         <!-- Button section -->
+           <button class="text-white text-sm font-black text-center p-4 my-6 mx-6 rounded-xl bg-darkPurple shadow-xl shadow-grayishBlue hover:bg-lightPurple hover:shadow-purple-200 md:max-w-sm md:mx-8">Proceed to Payment</button>
+
+           <!-- Order section -->
+            <h3 class="text-sm text-center font-black text-grayishBlue mb-8 hover:text-darkBlue hover:cursor-pointer">Cancel Order</h3>
+       </div>
+    </div>
+  </body>
+</html>
